@@ -1,0 +1,47 @@
+# ── Python / Django ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.env.*
+.env
+.env.local
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+*.log
+media/
+staticfiles/
+.DS_Store
+
+# ── Node / React ──────────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.cache/
+*.tgz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Editor / OS ───────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+Thumbs.db
+*.swp
+*.swo
+
+# ── Misc ──────────────────────────────────────────────────────────
+reminder_log.txt
+send_reminders.bat
+*.bat
+
+# ── Secrets / Env files ──────────────────────────────────────────
+.env
+.env.local
